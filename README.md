@@ -1,27 +1,27 @@
 
-## automated cloud disk management tools
+## Automated cloud disk management tools
 
-### features
+### Features
 
 * 百度云盘
     * 用户登陆和用户和文件管理
     * 百度云链接自动保存
 * 坚果云 (TODO)
     
-### install
+### Install
 
 ```shell script
 pip install pycloud
 ```
 
-### dependence
+### Dependence
 
 记住 chrome driver 的版本要与 chrome 相对应。
 
 * [google chrome](https://www.google.cn/intl/zh-CN/chrome/)
 * [google chrome driver](https://npm.taobao.org/mirrors/chromedriver/)
 
-### usage
+### Usage
 
 假设你有很多百度云盘链接，现在想通过一些脚本自动保存到自己的云盘上，可以通过下面的步骤进行操作。
 
