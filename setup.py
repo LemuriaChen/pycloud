@@ -15,7 +15,7 @@ setuptools.setup(
     long_description=long_description,
     author='dandanlemuria',
     author_email='18110980003@fudan.edu.cn',
-    url='https://github.com/LemuriaChen/dandanlemuria',
+    url='https://github.com/LemuriaChen/pycloud',
     license="MIT",
     classifiers=[
         'Intended Audience :: Developers',
@@ -26,9 +26,6 @@ setuptools.setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
-        'Topic :: Text Processing',
-        'Topic :: Text Processing :: Indexing',
-        'Topic :: Text Processing :: Linguistic',
       ],
     keywords='NLP, toolkit',
     packages=setuptools.find_packages(),
