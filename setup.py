@@ -9,7 +9,7 @@ long_description = """
 
 
 setuptools.setup(
-    name='pycloud',
+    name='py_cloud',
     version='1.0.0',
     description='A toolkit for automatic cloud disk management',
     long_description=long_description,
@@ -27,6 +27,9 @@ setuptools.setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
       ],
-    keywords='NLP, toolkit',
+    keywords='cloud disk, download, upload, share',
     packages=setuptools.find_packages(),
+    install_requires=[
+        'selenium==3.141.0',
+    ],
 )

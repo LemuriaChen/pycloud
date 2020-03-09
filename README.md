@@ -18,16 +18,14 @@ pip install pycloud
 
 记住 chrome driver 的版本要与 chrome 相对应。
 
-* [google chrome](https://www.google.cn/intl/zh-CN/chrome/)
-* [google chrome driver](https://npm.taobao.org/mirrors/chromedriver/)
+* [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/)
+* [Google Chrome Driver](https://npm.taobao.org/mirrors/chromedriver/)
 
 ### Usage
 
 假设你有很多百度云盘链接，现在想通过一些脚本自动保存到自己的云盘上，可以通过下面的步骤进行操作。
 
-* 手动登陆并保存 cookie 到特定到目录
-
-打开 ipython，运行以下代码。 
+* 手动登陆并保存 cookie 到特定到目录，打开 ipython，运行以下代码。 
 
 ```python
 from pycloud.netdisk import NetDisk
@@ -41,7 +39,6 @@ nd.save_cookie()    # 然后调用 save_cookie 函数保存 cookie, cookie 默�
 * 使用 cookie 登陆个人云盘，并遍历分享链接，进行批量保存（或者使用多进程加快保存速度）
 
 ```python
-
 from pycloud.netdisk import NetDisk
 
 nd = NetDisk()
