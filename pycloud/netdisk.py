@@ -190,10 +190,13 @@ class NetDisk(object):
                     time.sleep(random.uniform(1, 3))
 
             # select all
-            selector = self.driver.find_element_by_xpath("//div[@node-type='fydGNC']")
-            self.driver.execute_script('arguments[0].click()', selector)
-            if self.mode == 'slow':
-                time.sleep(random.uniform(0.5, 1))
+            try:
+                selector = self.driver.find_element_by_xpath("//div[@node-type='fydGNC']")
+                self.driver.execute_script('arguments[0].click()', selector)
+                if self.mode == 'slow':
+                    time.sleep(random.uniform(0.5, 1))
+            except NoSuchElementException:
+                pass
 
             # save
             selector = self.driver.find_element_by_class_name('g-button')
