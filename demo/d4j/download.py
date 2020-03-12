@@ -82,7 +82,7 @@ def save_d4j(queue, url_pool):
 
                     if share_url and vc and share_url not in url_pool:
                         print(f'百度网盘链接: {share_url}, 验证码: {vc}')
-                        nd.save(url=share_url, pwd=vc, verbose=False, save_path=path)
+                        nd.save(url=share_url, pwd=vc, verbose=False, save_path='Book/' + path)
                         share_url_pool.add(share_url)
 
             except Exception as e:
@@ -98,6 +98,7 @@ for _ in range(num_workers):
 
 for p in processes:
     p.start()
+    time.sleep(120)
 
 for p in processes:
     p.join()
