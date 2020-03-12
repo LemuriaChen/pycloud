@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="62920f2b-5f70-4da4-8ead-0d859777fddf" name="新金博1409" url="http://10.192.9.82">
+        <fileTransfer host="10.192.9.82" port="48310" rootFolder="/remote-home/my/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="48310" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
