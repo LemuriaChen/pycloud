@@ -1,0 +1,206 @@
+[
+  {
+    "navigate_name": "小说文学",
+    "menu_name": "畅销文学·古典名著",
+    "current_url": "https://www.d4j.cn/book/xiaoshuowenxue/changxiaoxiaoshuo-jingdianmingzhu",
+    "max_page": 12
+  },
+  {
+    "navigate_name": "小说文学",
+    "menu_name": "现代文学·中外文学",
+    "current_url": "https://www.d4j.cn/book/xiaoshuowenxue/xiandaiwenxue-waiguowenxue",
+    "max_page": 64
+  },
+  {
+    "navigate_name": "小说文学",
+    "menu_name": "人物传记·散文随笔",
+    "current_url": "https://www.d4j.cn/book/xiaoshuowenxue/renwuzhuanji-sanwensuibi",
+    "max_page": 25
+  },
+  {
+    "navigate_name": "小说文学",
+    "menu_name": "官场商战·社会人生",
+    "current_url": "https://www.d4j.cn/book/xiaoshuowenxue/guanchangshangzhan-shehuirensheng",
+    "max_page": 3
+  },
+  {
+    "navigate_name": "小说文学",
+    "menu_name": "科幻恐怖·悬疑侦探",
+    "current_url": "https://www.d4j.cn/book/xiaoshuowenxue/kehuankongbu-xuanyizhentan",
+    "max_page": 36
+  },
+  {
+    "navigate_name": "小说文学",
+    "menu_name": "情感言情·青春爱情",
+    "current_url": "https://www.d4j.cn/book/xiaoshuowenxue/qingganyanqing-qingchunaiqing",
+    "max_page": 8
+  },
+  {
+    "navigate_name": "小说文学",
+    "menu_name": "军事地理·架空历史",
+    "current_url": "https://www.d4j.cn/book/xiaoshuowenxue/junshidili-jiakonglishi",
+    "max_page": 4
+  },
+  {
+    "navigate_name": "小说文学",
+    "menu_name": "武侠奇幻·仙侠修真",
+    "current_url": "https://www.d4j.cn/book/xiaoshuowenxue/wuxiaxuanhuan-xianxiaxiuzhen",
+    "max_page": 9
+  },
+  {
+    "navigate_name": "小说文学",
+    "menu_name": "都市言情·穿越重生",
+    "current_url": "https://www.d4j.cn/book/xiaoshuowenxue/dushiyanqing-chuanyuezhongsheng",
+    "max_page": 2
+  },
+  {
+    "navigate_name": "畅销图书",
+    "menu_name": "历史人物",
+    "current_url": "https://www.d4j.cn/book/lishirenwu",
+    "max_page": 50
+  },
+  {
+    "navigate_name": "畅销图书",
+    "menu_name": "人文社科",
+    "current_url": "https://www.d4j.cn/book/renwensheke",
+    "max_page": 18
+  },
+  {
+    "navigate_name": "畅销图书",
+    "menu_name": "自然科普",
+    "current_url": "https://www.d4j.cn/book/zirankepu",
+    "max_page": 9
+  },
+  {
+    "navigate_name": "畅销图书",
+    "menu_name": "成功励志",
+    "current_url": "https://www.d4j.cn/book/chenggonglizhi",
+    "max_page": 7
+  },
+  {
+    "navigate_name": "畅销图书",
+    "menu_name": "政治军事",
+    "current_url": "https://www.d4j.cn/book/zhengzhijunshi",
+    "max_page": 9
+  },
+  {
+    "navigate_name": "畅销图书",
+    "menu_name": "生活百科",
+    "current_url": "https://www.d4j.cn/book/shenghuobaike",
+    "max_page": 3
+  },
+  {
+    "navigate_name": "畅销图书",
+    "menu_name": "哲学宗教",
+    "current_url": "https://www.d4j.cn/book/zhexuezongjiao",
+    "max_page": 18
+  },
+  {
+    "navigate_name": "畅销图书",
+    "menu_name": "经济管理",
+    "current_url": "https://www.d4j.cn/book/jingjiguanli",
+    "max_page": 24
+  },
+  {
+    "navigate_name": "畅销图书",
+    "menu_name": "金融商业",
+    "current_url": "https://www.d4j.cn/book/chuangyelicai",
+    "max_page": 12
+  },
+  {
+    "navigate_name": "畅销图书",
+    "menu_name": "心理科学",
+    "current_url": "https://www.d4j.cn/book/xinlikexue",
+    "max_page": 13
+  },
+  {
+    "navigate_name": "畅销图书",
+    "menu_name": "漫画资源",
+    "current_url": "https://www.d4j.cn/changxiao-tushu/manhua-ziyuan",
+    "max_page": 4
+  },
+  {
+    "navigate_name": "畅销图书",
+    "menu_name": "儿童教育",
+    "current_url": "https://www.d4j.cn/changxiao-tushu/er-tong-wen-xue",
+    "max_page": 7
+  },
+  {
+    "navigate_name": "畅销图书",
+    "menu_name": "医学养生",
+    "current_url": "https://www.d4j.cn/book/yixueyangsheng",
+    "max_page": 9
+  },
+  {
+    "navigate_name": "畅销图书",
+    "menu_name": "英文原版",
+    "current_url": "https://www.d4j.cn/book/yingwenyuanban",
+    "max_page": 1
+  },
+  {
+    "navigate_name": "合集套装",
+    "menu_name": "中亚合集",
+    "current_url": "https://www.d4j.cn/hejitaozhuang/qita-heji",
+    "max_page": 84
+  },
+  {
+    "navigate_name": "合集套装",
+    "menu_name": "理想国译丛",
+    "current_url": "https://www.d4j.cn/hejitaozhuang/lixiangguo-yicong",
+    "max_page": 3
+  },
+  {
+    "navigate_name": "合集套装",
+    "menu_name": "汗青堂丛书",
+    "current_url": "https://www.d4j.cn/hejitaozhuang/hanqingtang-congshu",
+    "max_page": 2
+  },
+  {
+    "navigate_name": "合集套装",
+    "menu_name": "甲骨文丛书",
+    "current_url": "https://www.d4j.cn/hejitaozhuang/jiaguwen-congshu",
+    "max_page": 5
+  },
+  {
+    "navigate_name": "学习干货",
+    "menu_name": "编程开发",
+    "current_url": "https://www.d4j.cn/xuexi-ganhuo/biancheng-kaifa",
+    "max_page": 6
+  },
+  {
+    "navigate_name": "学习干货",
+    "menu_name": "设计美工",
+    "current_url": "https://www.d4j.cn/xuexi-ganhuo/sheji-meigong",
+    "max_page": 1
+  },
+  {
+    "navigate_name": "学习干货",
+    "menu_name": "语言学习",
+    "current_url": "https://www.d4j.cn/xuexi-ganhuo/yuyan-xuexi",
+    "max_page": 5
+  },
+  {
+    "navigate_name": "学习干货",
+    "menu_name": "设计艺术",
+    "current_url": "https://www.d4j.cn/book/shejiyishu",
+    "max_page": 6
+  },
+  {
+    "navigate_name": "学习干货",
+    "menu_name": "摄影数码",
+    "current_url": "https://www.d4j.cn/book/sheyingshuuma",
+    "max_page": 2
+  },
+  {
+    "navigate_name": "学习干货",
+    "menu_name": "其他干货",
+    "current_url": "https://www.d4j.cn/xuexi-ganhuo/qit-ganhuo",
+    "max_page": 2
+  },
+  {
+    "navigate_name": "学习干货",
+    "menu_name": "网络安全",
+    "current_url": "https://www.d4j.cn/book/jisuanjilei",
+    "max_page": 1
+  }
+]
