@@ -23,8 +23,10 @@ with open('demo/d4j/book_lists.json', 'r') as f:
 for book_list in book_lists:
     book_lists_queue.put(book_list)
 
+share_url_pool = set()
 
-def save_d4j(queue):
+
+def save_d4j(queue, url_pool):
 
     nd = NetDisk()
     nd.login_with_cookie()
@@ -78,19 +80,21 @@ def save_d4j(queue):
                                 vc = element.text.replace('百度网盘提取码 ：', '').strip()
                         share_url = nd.driver.find_element_by_xpath("//div[@class='panel-body']/span/a").get_attribute('href')
 
-                    if share_url and vc:
+                    if share_url and vc and share_url not in url_pool:
                         print(f'百度网盘链接: {share_url}, 验证码: {vc}')
                         nd.save(url=share_url, pwd=vc, verbose=False, save_path=path)
+                        share_url_pool.add(share_url)
+
             except Exception as e:
                 print(e)
 
 
 start = time.time()
-num_workers = 4
+num_workers = 8
 processes = []
 
 for _ in range(num_workers):
-    processes.append(Process(target=save_d4j, args=(book_lists_queue, )))
+    processes.append(Process(target=save_d4j, args=(book_lists_queue, share_url_pool)))
 
 for p in processes:
     p.start()

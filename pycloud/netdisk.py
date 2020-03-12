@@ -212,7 +212,9 @@ class NetDisk(object):
                 "//*[@id='fileTreeDialog']/div[2]/div/ul/li"
             )
 
-            for dir_name in save_path.split('/'):
+            dir_names = save_path.split('/')
+
+            for dir_name in dir_names:
                 if dir_name:
                     flag = False
                     for element in elements.find_elements_by_xpath('ul/li'):
@@ -220,16 +222,20 @@ class NetDisk(object):
                             flag = True
                             break
                     if not flag:
+                        print(f"creating path < {'/'.join(dir_names[: dir_names.index(dir_name) + 1])} > ...")
                         selector = self.driver.find_element_by_xpath("//span/em[@title='新建文件夹']")
                         self.driver.execute_script('arguments[0].click()', selector)
                         if self.mode == 'slow':
                             time.sleep(random.uniform(3.5, 4.5))
-                        self.driver.find_element_by_xpath("//input[@value='新建文件夹']").send_keys(dir_name)
+                        selector = self.driver.find_element_by_xpath("//input[@value='新建文件夹']")
+                        selector.clear()
+                        time.sleep(random.uniform(1.5, 2.5))
+                        selector.send_keys(dir_name)
                         if self.mode == 'slow':
-                            time.sleep(random.uniform(0.5, 1.5))
+                            time.sleep(random.uniform(3.5, 4.5))
                         self.driver.find_element_by_class_name('shareFolderConfirm').click()
                         if self.mode == 'slow':
-                            time.sleep(random.uniform(2.5, 3.5))
+                            time.sleep(random.uniform(3.5, 4.5))
                         for element in elements.find_elements_by_xpath('ul/li'):
                             if element.text.split('\n')[0] == dir_name:
                                 break
@@ -237,15 +243,6 @@ class NetDisk(object):
                         element.click()
                         time.sleep(random.uniform(1, 3))
                     elements = element
-
-            """
-            # choose path to save (old version)
-            selector = self.driver.find_element_by_xpath(
-                f"//div[@class='file-tree-container']/ul/li/ul/li//*[text()='{save_path}']"
-            )
-            self.driver.execute_script('arguments[0].click()', selector)
-            time.sleep(random.uniform(1, 3))
-            """
 
             selector = self.driver.find_element_by_xpath("//a[@title='确定']")
             self.driver.execute_script('arguments[0].click()', selector)
